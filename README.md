@@ -9,19 +9,11 @@ This application helps users track their menstrual cycle and fertility levels. I
 - **Personal Notes**: Add personalized notes linked to specific dates.
 - **Graphical Visualization**: Displays hormone levels (FSH, LH, Estrogen, Progesterone) throughout the menstrual cycle.
 
-## Prerequisites
+## Framework Versions
 
-- **Python 3.8 or higher**
-- **Required Python Libraries**:
-  - `tkinter`
-  - `matplotlib`
-  - `numpy`
-
-Install the necessary libraries using:
-
-```bash
-pip install matplotlib numpy
-```
+- matplotlib      3.10.0
+- numpy           2.2.5
+  
 
 ## How to Use
 
@@ -53,33 +45,6 @@ pip install matplotlib numpy
   - Menstrual cycle dates and fertility levels.
   - Personal notes linked to specific dates.
 
-## Code Overview
-
-### Main Components
-
-#### 1. **Data Management**
-Functions to load and save data to the JSON file:
-- `load_data()`
-- `save_data(data)`
-
-#### 2. **Fertility Level Calculation**
-Determines fertility levels based on the start date:
-- `calculate_fertility_level(start_date)`
-
-#### 3. **Hormone Level Generation**
-Simulates hormone levels over a 28-day cycle:
-- `generate_hormone_levels(start_date)`
-
-#### 4. **Graphical Interface**
-Uses `tkinter` to create a user-friendly interface with:
-- Entry fields for dates and notes.
-- Buttons for saving and displaying data.
-- Error handling and success messages using `messagebox`.
-
-#### 5. **Visualization**
-Uses `matplotlib` to plot hormone levels over time:
-- `plot_hormone_levels()`
-
 ## Example Output
 
 ### Hormone Levels Graph
@@ -93,12 +58,3 @@ Fertility Levels:
   High: 2025-06-14 - 2025-06-14
   Weak: 2025-06-15 - 2025-06-29
 ```
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Acknowledgments
-
-- Inspiration for the application was derived from the need for a comprehensive and user-friendly menstrual tracking tool.
-- Special thanks to contributors and supporters of open-source libraries.
