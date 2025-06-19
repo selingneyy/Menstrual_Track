@@ -19,21 +19,23 @@ This application helps users track their menstrual cycle and fertility levels. I
 
 1. **Run the Application**:
    - Save the provided Python script as `menstrual_tracker.py`.
+   - Open your terminal or command prompt.
+   - Navigate to the directory where the script is saved.
    - Execute the script using Python:
      ```bash
      python menstrual_tracker.py
      ```
 
 2. **Record Menstrual Data**:
-   - Enter the start date of your menstrual cycle in the `YYYY-MM-DD` format.
-   - Click the `Save` button to record the cycle.
+   - In the application window, enter the start date of your menstrual cycle in the `YYYY-MM-DD` format in the input field.
+   - Click the `Save` button to record the cycle. If the format is incorrect, an error message will appear.
 
-3. **View Data**:
-   - Click the `Show Menstrual and Fertility Information` button to view recorded periods and calculated fertility levels.
+3. **View Recorded Data**:
+   - Click the `Show Menstrual and Fertility Information` button to view a detailed list of recorded periods and calculated fertility levels.
 
 4. **Add Personal Notes**:
-   - Enter a date and note in the respective fields.
-   - Click the `Add Note` button to save the note.
+   - Enter a specific date and your personal note in the designated fields.
+   - Click the `Add Note` button to save the note. You will receive a confirmation upon successful saving.
 
 5. **Visualize Hormone Levels**:
    - Click the `Show Hormone Levels Graph` button to generate and display a graph of hormone levels during the menstrual cycle.
