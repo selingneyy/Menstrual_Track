@@ -13,6 +13,7 @@ This application helps users track their menstrual cycle and fertility levels. I
 
 - matplotlib      3.10.0
 - numpy           2.2.5
+- Python 3.12.11
   
 
 ## How to Use
