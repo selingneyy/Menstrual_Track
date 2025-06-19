@@ -20,12 +20,6 @@ This application helps users track their menstrual cycle and fertility levels. I
 
 1. **Run the Application**:
    - Save the provided Python script as `menstrual_tracker.py`.
-   - Open your terminal or command prompt.
-   - Navigate to the directory where the script is saved.
-   - Execute the script using Python:
-     ```bash
-     python menstrual_tracker.py
-     ```
 
 2. **Record Menstrual Data**:
    - In the application window, enter the start date of your menstrual cycle in the `YYYY-MM-DD` format in the input field.
