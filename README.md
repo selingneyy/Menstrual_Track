@@ -55,3 +55,7 @@ Fertility Levels:
   High: 2025-06-14 - 2025-06-14
   Weak: 2025-06-15 - 2025-06-29
 ```
+### Note!
+
+- The JSON file is added inside the Menstrual_Track-master folder. If you are unable to open the file, please use the Notepad application on your computer.
+- To run the code, please use PyCharm.
