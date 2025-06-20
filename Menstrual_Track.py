@@ -107,7 +107,7 @@ note_entry.pack()
 tk.Button(root, text="Add Note", command=add_personal_note).pack()
 
 def generate_hormone_levels(start_date):
-    days = np.arange(1, 29).tolist()  # numpy dizisini Python listesine dönüştürerek int türüne çevirir
+    days = np.arange(1, 29).tolist()
     fsh = [5 + (i if i < 14 else 28 - i) * 0.5 for i in range(28)]
     lh = [2 + (0 if i < 12 else (i - 12) * 2) if i <= 14 else 30 - (i - 14) * 2 for i in range(28)]
     estrogen = [50 + (i if i < 14 else 28 - i) * 5 for i in range(28)]
